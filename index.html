@@ -683,6 +683,21 @@
                     </div>
                 </div>
             </div>
+            
+            
+        </div>
+        <div class="row g-4 wow fadeInUp" id="load-more">
+            <div class="col-12" style=" margin-top: 20px;border-radius: 5px; text-align: center;" onclick="loadmore()">
+                <h2  class="btn-primary" style="padding: 10px;border-radius: 12px;">View all</h2>
+            </div>
+        </div>
+        <script>
+            function loadmore(){
+                document.getElementById("load-more").style.display="none"
+                document.getElementById("tobeloaded").style.display="flex"
+            }
+        </script>
+        <div class="row g-4" id="tobeloaded" style="display: none;" >
             <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
                     <img class="img-fluid" src="./documents/certificates/coursera/meta_back_end_development/introduction_to_databases.png" >
@@ -723,20 +738,6 @@
                     </div>
                 </div>
             </div>
-            
-        </div>
-        <div class="row g-4 wow fadeInUp" id="load-more">
-            <div class="col-12" style=" margin-top: 20px;border-radius: 5px; text-align: center;" onclick="loadmore()">
-                <h2  class="btn-primary" style="padding: 10px;border-radius: 12px;">View all</h2>
-            </div>
-        </div>
-        <script>
-            function loadmore(){
-                document.getElementById("load-more").style.display="none"
-                document.getElementById("tobeloaded").style.display="flex"
-            }
-        </script>
-        <div class="row g-4" id="tobeloaded" style="display: none;" >
             <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
                     <img class="img-fluid" src="./documents/certificates/coursera/meta_back_end_development/programming_in_python.png" >
